@@ -17,6 +17,9 @@ public class Main {
 
         String plaatinaFutuuridKuudes = "https://finance.yahoo.com/quote/PL%3DF/history/?period1=906940800&period2=1733848476&frequency=1mo";
         loeAndmedSisse(plaatinaFutuuridKuudes, "plaatinaFutuuridKuudes.csv");
+
+        String REIT = "https://finance.yahoo.com/quote/NLY/history/?period1=906940800&period2=1734537455&frequency=1mo";
+        loeAndmedSisse(REIT, "REIT.csv");
     }
     private static void loeAndmedSisse(String url, String outputCSVfile) {
         try {
